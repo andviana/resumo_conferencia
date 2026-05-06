@@ -1,0 +1,8 @@
+=== BEST SOLUTION (chosen) ===
+log10C      : -0.188563
+log10gamma  : -3.027454
+C          : 0.64779343
+gamma      : 0.0009387424
+threshold t: 0.2353
+bal_acc_mean: 0.826452
+bal_acc_std : 0.049014
