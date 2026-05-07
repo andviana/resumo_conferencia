@@ -321,3 +321,6 @@ pyrightconfig.json
 # Custom additions
 # *.db
 *.sqlite
+catboost_info
+catboost_info/
+catboost_info/*
