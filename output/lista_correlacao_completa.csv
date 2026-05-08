@@ -705,7 +705,7 @@ mfcc5_std,hnr_mean_db,0.3470719285312013
 shannon_s1_f0,f1_std_hz,0.346991398932543
 dmfcc12_std,mfcc3_mean,0.3466118393912553
 spec_rolloff_std_hz,mfcc11_std,0.3460552668451659
-mfcc10_mean,f0_mean_hz,0.34593137587464184
+mfcc10_mean,f0_mean_hz,0.3459313758746418
 tsallis_sq_f0,dmfcc7_std,0.34568657442409484
 shannon_s1_f0,mfcc5_std,0.34536587882149494
 mfcc10_std,mfcc1_std,0.34498348055586103
@@ -772,7 +772,7 @@ spec_rolloff_std_hz,f3_std_hz,0.3233025985275574
 dmfcc1_std,f0_cv,0.32311745310631035
 mfcc9_mean,f4_mean_hz,0.3225807917277096
 mfcc11_mean,f0_min_hz,0.322534490477209
-mfcc8_std,f0_mean_hz,0.3224333392143495
+mfcc8_std,f0_mean_hz,0.3224333392143496
 dmfcc9_std,shimmer_apq3,0.3220246410264632
 dmfcc6_std,f3_mean_hz,0.32191120518923944
 spec_rolloff_std_hz,mfcc13_std,0.3218516299045447
@@ -1102,7 +1102,7 @@ spec_centroid_std_hz,f0_cv,0.2439242048258078
 dmfcc8_mean,dmfcc3_mean,0.24346261128648042
 mfcc6_std,mfcc3_mean,0.2433345641402447
 mfcc13_mean,mfcc9_mean,0.24315843319532945
-dmfcc5_std,f0_mean_hz,0.2430219281000316
+dmfcc5_std,f0_mean_hz,0.24302192810003162
 spec_energy_high_mean,mfcc8_mean,0.24301716207032256
 mfcc4_mean,f0_std_hz,0.2429671660814389
 dmfcc9_std,f2_std_hz,0.24263801182380315
@@ -1227,7 +1227,7 @@ dmfcc13_mean,mfcc13_mean,0.2222943186959536
 spec_rolloff_std_hz,mfcc12_mean,0.2221161764492087
 shannon_s1_amp,spec_rolloff_mean_hz,0.22205664744897533
 mfcc13_mean,f3_mean_hz,0.22201103803096084
-mfcc13_mean,f0_mean_hz,0.22199746319289457
+mfcc13_mean,f0_mean_hz,0.22199746319289462
 mfcc9_std,f3_mean_hz,0.22188479379683196
 dmfcc1_std,jitter_rap,0.22187105820303563
 spec_energy_mid_mean,mfcc5_mean,0.22175464436123535
@@ -1549,7 +1549,7 @@ mfcc8_std,dmfcc4_mean,0.17645893281667344
 shimmer_apq11,f2_std_hz,0.17630515689839102
 dmfcc3_std,jitter_ppq5,0.17622498137554285
 shannon_s1_amp,dmfcc12_std,0.17617873403767245
-dmfcc10_mean,f0_mean_hz,0.17609592234743648
+dmfcc10_mean,f0_mean_hz,0.17609592234743643
 spec_rolloff_std_hz,f2_mean_hz,0.17589610510423814
 dmfcc9_mean,mfcc3_std,0.17581967253916614
 dmfcc11_mean,dmfcc3_std,0.17564704933410843
@@ -1569,7 +1569,7 @@ shannon_s1_amp,mfcc12_std,0.1732364464941171
 dmfcc13_std,mfcc5_mean,0.17299743875333035
 f2_std_hz,f1_mean_hz,0.17291659443563737
 dmfcc6_mean,f0_max_hz,0.1729023760743607
-mfcc2_std,f0_mean_hz,0.1726045728514815
+mfcc2_std,f0_mean_hz,0.17260457285148156
 mfcc4_mean,mfcc2_std,0.1724307619217741
 mfcc10_std,f1_mean_hz,0.17235968257489992
 dmfcc11_mean,mfcc9_std,0.17233810938600153
@@ -1712,7 +1712,7 @@ spec_flux_mean,mfcc11_mean,0.1557858570586032
 spec_rolloff_mean_hz,jitter_ppq5,0.15575138137946148
 dmfcc6_mean,jitter_ppq5,0.15547702039161684
 mfcc5_mean,f0_max_hz,0.1554701739808737
-mfcc4_mean,f0_mean_hz,0.15546145511154738
+mfcc4_mean,f0_mean_hz,0.15546145511154744
 mfcc5_std,f1_mean_hz,0.15544840687198996
 shannon_s1_amp,dmfcc6_mean,0.15539971593025192
 mfcc9_std,dmfcc6_mean,0.15538649989922687
@@ -1962,7 +1962,7 @@ dmfcc9_std,f2_mean_hz,0.13201266796742908
 mfcc6_mean,mfcc1_mean,0.13178989479765982
 hnr_mean_db,f1_std_hz,0.13162321124402296
 shannon_s1_f0,spec_rolloff_mean_hz,0.13158599841836005
-f0_std_hz,f0_mean_hz,0.13145390915592728
+f0_std_hz,f0_mean_hz,0.13145390915592733
 spec_energy_high_mean,dmfcc4_std,0.13139426360073744
 dmfcc7_mean,shimmer_apq3,0.13105735010783764
 spec_energy_mid_mean,shimmer_apq3,0.1310147945222905
@@ -2220,7 +2220,7 @@ dmfcc11_std,f4_std_hz,0.10831515103703936
 mfcc5_mean,mfcc2_mean,0.10830091671240823
 mfcc8_mean,mfcc4_std,0.10827726842580886
 spec_energy_high_mean,dmfcc13_std,0.10825876713171742
-dmfcc13_mean,f0_mean_hz,0.10821930839860865
+dmfcc13_mean,f0_mean_hz,0.10821930839860867
 dmfcc11_mean,dmfcc8_std,0.10814868609456046
 shannon_s1_f0,shannon_s1_amp,0.10785570913276116
 dmfcc10_mean,shimmer_local,0.10761426619737051
@@ -2407,7 +2407,7 @@ mfcc10_mean,dmfcc2_mean,0.092111406345934
 spec_rolloff_std_hz,dmfcc1_mean,0.09209326491868125
 tsallis_sq_amp,dmfcc5_mean,0.0920473977528872
 dmfcc5_mean,dmfcc2_mean,0.0920097955661962
-spec_flux_std,f0_mean_hz,0.09199625795912952
+spec_flux_std,f0_mean_hz,0.09199625795912955
 dmfcc8_mean,f0_min_hz,0.09194154466382144
 spec_energy_high_mean,dmfcc9_std,0.09189427283372996
 spec_centroid_mean_hz,mfcc13_mean,0.09189387639012976
@@ -2731,7 +2731,7 @@ dmfcc8_mean,mfcc6_mean,0.06840068787687659
 mfcc10_mean,mfcc3_std,0.06832548035179731
 mfcc9_mean,f1_mean_hz,0.06819045583800742
 dmfcc7_mean,f4_std_hz,0.06816728636808789
-dmfcc11_mean,f0_max_hz,0.06806171507539835
+dmfcc11_mean,f0_max_hz,0.06806171507539839
 f3_mean_hz,f0_max_hz,0.06791088415709894
 mfcc12_mean,mfcc2_std,0.06778826551264108
 dmfcc8_std,mfcc4_mean,0.06771294202235298
@@ -2827,7 +2827,7 @@ dmfcc2_mean,jitter_rap,0.0616339232611971
 mfcc4_std,dmfcc2_mean,0.061604186273552956
 spec_flux_std,spec_rolloff_mean_hz,0.061566588806031726
 mfcc10_std,jitter_local,0.06136302539333014
-f2_mean_hz,f0_mean_hz,0.06134120412730986
+f2_mean_hz,f0_mean_hz,0.06134120412730985
 tsallis_sq_amp,jitter_local,0.06133874267739434
 spec_energy_low_mean,dmfcc2_mean,0.061202898338782896
 mfcc12_mean,hnr_mean_db,0.061170055472528864
@@ -2878,7 +2878,7 @@ mfcc7_std,dmfcc2_mean,0.057246070119475106
 dmfcc3_mean,shimmer_apq5,0.05722609111323126
 dmfcc13_std,dmfcc12_mean,0.0571914845126856
 mfcc3_mean,dmfcc2_mean,0.05705872615025442
-spec_rolloff_std_hz,f0_mean_hz,0.05700098136837638
+spec_rolloff_std_hz,f0_mean_hz,0.0570009813683764
 shannon_s1_f0,mfcc10_mean,0.05691612901281723
 spec_energy_mid_mean,mfcc2_mean,0.056894426998815056
 dmfcc8_mean,shimmer_apq5,0.05676734119743077
@@ -2894,7 +2894,7 @@ dmfcc7_std,jitter_local,0.055706652162086145
 dmfcc6_mean,f3_mean_hz,0.05566197380440998
 tsallis_sq_f0,spec_rolloff_std_hz,0.055601587725252984
 mfcc5_mean,mfcc1_std,0.055485385078817596
-dmfcc2_mean,f0_mean_hz,0.055405977948118995
+dmfcc2_mean,f0_mean_hz,0.055405977948119044
 dmfcc6_std,dmfcc5_mean,0.055396864029186706
 dmfcc8_mean,f0_cv,0.05537476609180657
 dmfcc1_mean,f0_min_hz,0.0553172583404815
@@ -2971,7 +2971,7 @@ dmfcc10_std,mfcc9_mean,0.04896423878604302
 dmfcc7_std,mfcc5_mean,0.04895089641334969
 dmfcc7_mean,mfcc6_mean,0.048927692260175695
 mfcc8_std,jitter_rap,0.04873222545400919
-f0_cv,f0_mean_hz,0.04869578005035184
+f0_cv,f0_mean_hz,0.04869578005035189
 dmfcc7_mean,f2_mean_hz,0.048683145187828326
 dmfcc9_mean,mfcc7_mean,0.04859511325385045
 dmfcc7_std,mfcc7_mean,0.04854983184569551
@@ -2996,7 +2996,7 @@ dmfcc4_mean,shimmer_apq3,0.04705706908630468
 dmfcc1_mean,f3_std_hz,0.04695778763373917
 spec_rolloff_mean_hz,mfcc8_std,0.04691686595359261
 dmfcc4_mean,f0_min_hz,0.04690984673264861
-dmfcc5_mean,f0_mean_hz,0.046533221284055834
+dmfcc5_mean,f0_mean_hz,0.0465332212840558
 mfcc3_mean,f0_std_hz,0.046396745299173946
 dmfcc13_std,mfcc11_mean,0.04639634996504701
 spec_energy_high_mean,f2_mean_hz,0.04637525616634377
@@ -3064,7 +3064,7 @@ dmfcc11_std,dmfcc7_mean,0.04307144459768406
 tsallis_sq_amp,mfcc3_mean,0.042952340659272906
 f3_mean_hz,f1_mean_hz,0.04293843354662381
 dmfcc7_mean,hnr_mean_db,0.042874779304491795
-dmfcc3_mean,f0_max_hz,0.04273085446809448
+dmfcc3_mean,f0_max_hz,0.042730854468094506
 mfcc4_std,shimmer_local,0.04267449624787847
 spec_rolloff_std_hz,mfcc6_mean,0.0426212670307067
 dmfcc13_mean,mfcc5_mean,0.04252869337200856
@@ -3089,7 +3089,7 @@ mfcc11_mean,dmfcc6_mean,0.041030614921498294
 spec_flux_std,dmfcc8_mean,0.040944719706435644
 jitter_rap,f4_std_hz,0.04089828990114966
 tsallis_sq_amp,f4_mean_hz,0.040641651405774776
-dmfcc9_mean,f0_mean_hz,0.04053077238131967
+dmfcc9_mean,f0_mean_hz,0.040530772381319684
 spec_energy_low_mean,jitter_rap,0.04050911124832744
 mfcc8_mean,dmfcc7_std,0.040502388655923385
 dmfcc9_std,mfcc4_mean,0.04046683353525123
@@ -3226,7 +3226,7 @@ dmfcc9_mean,jitter_local,0.030578220393447365
 mfcc3_std,jitter_local,0.030435766531478222
 mfcc8_mean,hnr_mean_db,0.030355081642999947
 spec_energy_high_mean,dmfcc6_std,0.0303530753163243
-f1_mean_hz,f0_max_hz,0.030293499606363797
+f1_mean_hz,f0_max_hz,0.030293499606363804
 dmfcc12_mean,f1_std_hz,0.030225323675011496
 mfcc4_mean,shimmer_apq11,0.02992020241344012
 mfcc7_mean,dmfcc2_mean,0.029909257785880536
@@ -3419,7 +3419,7 @@ dmfcc9_mean,mfcc6_mean,0.017767294252907764
 dmfcc10_std,mfcc7_mean,0.01764913446346692
 spec_flux_mean,mfcc8_mean,0.017610331970727124
 dmfcc13_mean,dmfcc8_std,0.01759177019876119
-dmfcc12_mean,f0_mean_hz,0.017486351445240335
+dmfcc12_mean,f0_mean_hz,0.017486351445240342
 shimmer_local,f0_max_hz,0.01747731795737999
 dmfcc13_mean,f4_std_hz,0.01740228919347076
 dmfcc2_std,f3_mean_hz,0.017395611263257997
@@ -3441,7 +3441,7 @@ mfcc11_std,dmfcc6_mean,0.01648068453667892
 mfcc11_mean,dmfcc3_std,0.01647136288479251
 dmfcc13_mean,dmfcc12_std,0.01644622152391487
 spec_rolloff_std_hz,dmfcc5_mean,0.016295737359973108
-hnr_mean_db,f0_mean_hz,0.016135796372447997
+hnr_mean_db,f0_mean_hz,0.016135796372447987
 spec_rolloff_std_hz,f0_min_hz,0.016127691826014312
 dmfcc10_std,dmfcc4_mean,0.016091335319545343
 spec_energy_mid_mean,dmfcc12_mean,0.015989039053925208
@@ -3491,7 +3491,7 @@ spec_centroid_std_hz,jitter_local,0.012654353586925555
 mfcc10_mean,dmfcc5_std,0.012584207133202735
 mfcc10_std,dmfcc9_mean,0.012359028263911245
 dmfcc3_mean,shimmer_apq3,0.012329990254515994
-dmfcc4_mean,f0_mean_hz,0.01230018073297834
+dmfcc4_mean,f0_mean_hz,0.012300180732978349
 shannon_s1_f0,spec_centroid_mean_hz,0.012296299607675965
 shannon_s1_amp,mfcc5_std,0.012291682959500462
 mfcc6_mean,dmfcc1_mean,0.012205457663864364
@@ -3601,7 +3601,7 @@ spec_rolloff_mean_hz,mfcc1_std,0.004938344918537421
 mfcc10_mean,dmfcc6_mean,0.004907542627788131
 spec_energy_low_mean,mfcc2_std,0.004900373092156435
 mfcc12_std,dmfcc5_mean,0.0048857303391658365
-dmfcc1_mean,f0_mean_hz,0.004884165292378994
+dmfcc1_mean,f0_mean_hz,0.004884165292378954
 dmfcc11_mean,dmfcc10_mean,0.00481930055031611
 spec_energy_high_mean,spec_flux_mean,0.004776760694600133
 spec_rolloff_std_hz,mfcc10_mean,0.0046969647685521036
