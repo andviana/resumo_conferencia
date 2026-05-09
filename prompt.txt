@@ -1,0 +1,64 @@
+preciso escrever um resumo para um congresso cientifico em neuriciencias. Conforme diretrizes do evento, o resumo deverá ter a seginte estrutura:
+
+## ESTRUTURA DOS RESUMOS
+1. Autores: Serão permitidos, no máximo, 6 (seis) autores por trabalho. Iniciar pelo nome do autor principal, e inserir o nome do Orientador como último nome da lista de autores. Os nomes dos autores devem estar separados por ponto e vírgula.
+2. Instituição: Deve ser atribuída/indicada a instituição na qual cada participante faz parte.
+3. Corpo do resumo: Devem conter no mínimo 150 e máximo 300 palavras. Sem parágrafos e sem citações bibliográficas, fonte Times New Roman 12, espaçamento simples.
+
+
+### Deverá conter, obrigatoriamente:
+1. Introdução
+2. Objetivos
+3. Métodos
+4. Resultados
+5. Conclusão
+6. Palavras chave – 3 a 5
+
+
+## o que foi realizado (history telling)
+- O resumo investigará o impacto das features relacionadas a entropia de tsallis. Para isso será realizada uma ablação onde um conjunto de modelos classicos foram utilizados em um benchmark, gerando um ranking com valores de acuracia, auc-roc, f1 e desvios padrão entre os folds para cada resultado.
+Considerando a dimensionalidade, os ranking foram obtidos em 3 configurações diferentes de tamanho do dataset, sendo 8 features, 11 features e 16 features.
+Foram obtidos 6 rankings, pois inicialmente foram registrados os valores do benchmark para cada uma das configurações, e posteriormente foram adicionadas as features de tsallis e executado novamente o benchmark para registro dos resultados, resultando em 3 rankings (8k, 11k e 16k) sem tsallis e 3 rankings (8k+tsallis, 11k+tsallis e 16k+tsallis) com tsallis 
+
+O dataset original possui 85 features vocais as quais foram extraidas de gravações de sustentação fonada da vogal /a/, para classificação da doença de parkinson.  
+- As gravações foram obtidas do dataset público utilizado pelo trabalho de shen,2025 (pdf em anexo).
+- Importante ressaltar que a validação estatística das amostras (caracteristicas demograficas - idade e sexo) dos individuos dos arquivos de audio) está presente no trabalho de shen,2025.
+- O trabalho fez um pipeline para limpeza dos dados, preprocessamento, preenchimento de nulos (considerando que o total é 81 audios, e há muitas features, a dimensionalidade foi um problema, não sendo desejavel a exclusão de registros)
+- foi utilizado o simple inputer com estratégia mediana visando manter as caracteristicas de distribuição da amostra
+- foi utilizado o quantille clipper
+- foi utilizado o robustscaller
+- para redução de dimensionalidade foi utilizada uma estratégia de consenso entre modelos (3 modelos distintos), reduzindo o numero de colunas, priorizando as que mais trouxeram significado a predição
+- foi verificada a colinearidade 
+- Importante ressaltar que a colinearidade foi resolvida pela estratégia de consenso, a qual, ao selecionar as principais features que contribuem para a predição suprime as demais features
+- Foi realizado um benchmark de modelos classicos, o qual alcançou os valores das planilhas em anexos ( 6 resultados distintos)
+- em uma analise de consenso verificou-se a importancia da amplitude, e amplicando-se o consenso entre as variaveis mais importantes, inclusive o tsallis, verificou que as variavies de tssalis ficou entre a x
+- Pretendemos com os resultados verificar a contribuição da entropia de tsallis, pela sua natureza não extensiva, enquanto potencial variavel preditora na classificação de pacientes com parkinson através de series temporais de audio.
+- Considerando que temos 81 registros, foram utilizados na ablacao os seguintes cenários:
+  - A Regra de 1 para 10 (ou Regra de Harrell, esta no PDF em anexo), que diz que para que um modelo consiga generalizar bem e não apenas "decorar" os dados, recomenda-se ter pelo menos 10 observações para cada feature (variável independente). Cálculo: $81 \text{ registros} / 10 \approx 8 \text{ features}$.
+  - Limite Máximo: Em casos onde o sinal é muito forte, pode-se chegar a uma proporção de 1:5 ($81/5 \approx 16 \text{ features}$), mas isso já aumenta consideravelmente o risco de ruído.
+- Cenários que foram utilizados
+Qtd. de Features - Justificativa Técnica
+  - Conservador: 8 features; Minimiza drasticamente o risco de overfitting. Ideal para modelos sensíveis como SVM e MLP.
+  - Equilibrado: 11 features; Um meio-termo comum em artigos de processamento de fala/saúde com amostras pequenas.
+  - Limite Superior: 16 features; Máximo aceitável. Acima disso, você terá mais "colunas" do que a complexidade dos dados suporta, gerando resultados instáveis.
+
+
+## Anexos
+-shen 2025
+-notebook
+-andeson Alfa;2025
+-Regra de Harrel (artigo sobre selecao de variaveis)
+-readme.md
+-(6 rankings)
+
+
+## Considerações
+- utilize rigor academico e linguagem científica, pois o trabalho será submetido para avaliação pelo programa de pos graduação (MESTRADO).
+- a avaliação do trabalho se dará através dos seguintes pontos: 1.Coerência com as áreas temáticas do evento (neurociencias); 2.Relevância do trabalho; 3.Qualidade da escrita; 4.Metodologia utilizada e sua adequação ao trabalho; 5.Objetivo e conclusão claros e concisos.
+
+
+## Saída
+o texto deverá estar noo formato tex para copiar e colar no oveleaf
+
+
+
